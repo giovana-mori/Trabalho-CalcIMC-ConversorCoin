@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ProjetoPDM1-Giovana-Cassia-Java</string>
+    <!-- Login -->
+    <string name="username">Usuário</string>
+    <string name="password">Senha</string>
+    <string name="login">Login</string>
+
+    <!-- Menu -->
+    <string name="imc_calculator">Calculadora IMC</string>
+    <string name="currency_converter">Conversor de Moedas</string>
+
+    <!-- IMC -->
+    <string name="weight">Peso (kg)</string>
+    <string name="height">Altura (m)</string>
+    <string name="calculate">Calcular</string>
+
+    <!-- Currency -->
+    <string name="value">Valor</string>
+    <string name="convert">Converter</string>
+    <string-array name="currencies">
+        <item>Real (BRL)</item>
+        <item>Dólar (USD)</item>
+        <item>Euro (EUR)</item>
+    </string-array>
+</resources>
