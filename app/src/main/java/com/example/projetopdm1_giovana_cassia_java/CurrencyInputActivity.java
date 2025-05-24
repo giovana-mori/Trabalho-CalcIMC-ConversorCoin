@@ -2,6 +2,7 @@ package com.example.projetopdm1_giovana_cassia_java;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
@@ -14,6 +15,7 @@ public class CurrencyInputActivity extends AppCompatActivity {
     private EditText editTextValue;
     private Spinner spinnerFrom, spinnerTo;
     private Button buttonConvert;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -47,5 +49,8 @@ public class CurrencyInputActivity extends AppCompatActivity {
             intent.putExtra("to", toCurrency);
             startActivity(intent);
         });
+    }
+    public void voltarTela(View view) {
+        finish(); // Fecha a activity atual e volta para a anterior
     }
 }

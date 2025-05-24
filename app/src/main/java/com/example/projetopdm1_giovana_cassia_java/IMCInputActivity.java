@@ -2,6 +2,7 @@ package com.example.projetopdm1_giovana_cassia_java;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
@@ -36,5 +37,8 @@ public class IMCInputActivity extends AppCompatActivity {
             intent.putExtra("height", height);
             startActivity(intent);
         });
+    }
+    public void voltarTela(View view) {
+        finish(); // Fecha a activity atual e volta para a anterior
     }
 }

@@ -1,6 +1,7 @@
 package com.example.projetopdm1_giovana_cassia_java;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -33,5 +34,8 @@ public class IMCResultActivity extends AppCompatActivity {
         else if (imc < 35) return "Obesidade grau I";
         else if (imc < 40) return "Obesidade grau II";
         else return "Obesidade grau III";
+    }
+    public void voltarTela(View view) {
+        finish(); // Fecha a activity atual e volta para a anterior
     }
 }

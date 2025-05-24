@@ -1,6 +1,7 @@
 package com.example.projetopdm1_giovana_cassia_java;
 
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -40,5 +41,8 @@ public class CurrencyResultActivity extends AppCompatActivity {
         if (from.equals("Euro (EUR)") && to.equals("Dólar (USD)")) return 1.05;
 
         return 1;
+    }
+    public void voltarTela(View view) {
+        finish(); // Fecha a activity atual e volta para a anterior
     }
 }
